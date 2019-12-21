@@ -175,7 +175,8 @@ public class AttachFile extends AppCompatActivity {
                     }else if (data != null && data.getData() != null) {
                         handleGalleryResult(data);
                     } else {
-                        handleCameraResult(cameraUrl);
+                        onSendResponse();
+                       // handleCameraResult(cameraUrl);
                     }
 
                     break;
