@@ -181,8 +181,7 @@ public class AttachFile extends AppCompatActivity {
 
                     break;
                 case SELECTED_IMG_CROP:
-                    onSendResponse();
-                    //previewCapturedImage();
+                    previewCapturedImage();
                     break;
 
                 default:
